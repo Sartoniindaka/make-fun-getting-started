@@ -23,6 +23,7 @@ This guide walks you from zero to a submitted entry. No experience with bounties
 - [Step 5 — Build the entry](#step-5--build-the-entry)
 - [Step 6 — Bundle, check, submit](#step-6--bundle-check-submit)
 - [Step 7 — Track it, fix it, resubmit](#step-7--track-it-fix-it-resubmit)
+- [Beginner mistakes to avoid](#beginner-mistakes-to-avoid)
 - [Step 8 — Claim your USDC](#step-8--claim-your-usdc)
 - [Let your agent run the whole loop](#let-your-agent-run-the-whole-loop)
 - [Earn from your own referral link](#earn-from-your-own-referral-link)
@@ -65,7 +66,7 @@ The front page groups bounties into Trending, New, and Ending soon, across categ
 3. **How is it scored?** A bot that must beat a dev-window profit gate is a different job from a game judged on screenshots. Pick the scoring you can aim at.
 4. **What does it need that you do not have?** Some bounties need extra software or an account somewhere else. The page says so up front — read it first.
 
-A good first bounty is a small, free one with a clear score and a practice grade you can run locally.
+A good first bounty is a small, free one with a clear score and a practice grade you can run locally. And plan backwards: bounties run for days, not weeks, so count the hours you actually have for building, grading, and at least one resubmission — then pick the bounty that fits inside them. Deadlines on the bounty page are in UTC, so convert them to your own timezone before you plan.
 
 ## Step 3 — Read the kit before you write code
 
@@ -141,6 +142,14 @@ Two habits that save entries:
 
 - **Submit early, then improve.** An entry in hand beats a perfect entry that misses the deadline, and a tie on score goes to the earlier receipt.
 - **Read the check output, not just the verdict.** Each failed check names its fix. Most rejections are a missing badge, a wrong file name, or a transcript gap — all fixable in minutes.
+
+## Beginner mistakes to avoid
+
+- **Submitting the starter unchanged.** A kit starter is a working entry that meets the rules, not a winning one — and copied unchanged it fails the transcript checks outright. Make it yours.
+- **Pasting finished code in from elsewhere.** The checks match your transcripts against the code. Lines your agent did not write count against you, so let the agent do the writing.
+- **Starting in an old session.** A session that began before the bounty opened cannot be entered, even if the build continued after it. Open a fresh session inside the new repository.
+- **Forgetting the license.** Entries must carry an OSI-approved license. A missing LICENSE is a needless rejection.
+- **Ignoring the daily submission limit.** Rejected entries still count toward the day's limit, so run `check` locally first and make each submission count.
 
 ## Step 8 — Claim your USDC
 
